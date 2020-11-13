@@ -4,6 +4,7 @@ header{
 	padding: 0%;
 	width: 100%;
 }
+
 .navbar{
 	background-color: rgb(144, 122, 243);
 	padding: 1%;
@@ -16,11 +17,13 @@ header{
 	list-style: none;
 	text-align: right;
 }
+
 .navbar li{
 	margin-right: 12px;
 	display: inline-block;
 	margin-left: 40px;
 }
+
 .navbar li a:link,
 .navbar li a:visited{
 	padding: 8px 8px;
@@ -31,6 +34,7 @@ header{
 	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.2s;
 }
+
 .navbar li a:hover,
 .navbar li a:active{
 	border-bottom: 2px solid rgba(48, 46, 46, 0.788);
@@ -42,6 +46,7 @@ header{
 	margin: auto;
 	margin-left: 200px;
 }
+
 .advert{
 	text-align: center;
 	width: 100%;
@@ -49,10 +54,12 @@ header{
 	background-color: floralwhite;
 	box-shadow: 2px 3px rgb(49, 43, 43);
 }
+
 h1{
 	color: brown;
 	text-align: center;
 }
+
 /* Advertise */
 
 /* store */
@@ -61,6 +68,7 @@ h1{
 .section{
 	margin-top: 100px;
 }
+
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
