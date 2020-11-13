@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title> Pars Borna Project</title>
-<link rel="stylesheet" type="text/css" href="style/store.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+<link rel="stylesheet" type="text/css" href="style/style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -167,5 +168,53 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <!-- مرکز سایت 2 -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="flex flex-row">
+            <div class="text-xl font-bold mr-40 mt-6">
+                پارس برنا
+            </div>
+            <div class="mt-20 mr-40 text-xl">
+                پارس برنا تیمی در راستای خدماتی مانند طراحی سایت ، بهبود سئو و خدمات مربوط به سایت می باشد
+            </div>
+        </div>
+        <div class="w-full unselectable" unselectable="on">
+            <div class="mr-8">
+                <a class="m-4" href="" title="" style="width: 70px;height:70px">
+                    <img aria-hidden="true" src="img/instagram.png" class="img-social-networks inline" style="width:70px;height:70px;" />
+                </a>
+                <a class="m-4" href="" title="" style="width: 70px;height:70px">
+                    <img aria-hidden="true" src="img/telegram.png" class="img-social-networks inline" style="width:70px;height:70px;" />
+                </a>
+                <a class="mr-3" href="" title="" style="width:80px;height:80px">
+                    <img aria-hidden="true" src="img/whatsapp.png" class="img-social-networks inline" style="width:80px;height:80px;" />
+                </a>
+            </div>
+        </div>
+        <div>
+            <div class="mr-5">
+                <p class="phone my-5 mx-6">
+                    <a class="cursor-pointer phone-link" href="tel:09123456789">
+                        <i class="fas fa-phone fa-30x phone-link" aria-hidden="true"></i>
+                        09123456789
+                    </a>
+                </p>
+                <p class="email my-5 mx-6">
+                    <a class="cursor-pointer email-link" href="mailto:info@example.ir">
+                        <i class="fas fa-envelope fa-30x email-link" aria-hidden="true"></i>
+                        info@example.ir
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="copyright-text text-center" style="display: table;">
+            <div class="inner" style="display: table-cell;vertical-align: middle;"> 
+                تمامی حقوق این سایت متعلق به تیم پارس برنا می باشد
+                <i class="fas fa-copyright"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
 </body>
 </html>
