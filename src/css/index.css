@@ -77,7 +77,6 @@ h1 {
 /* line 165, sass/libs/_normalize.scss */
 h2 {
     font-size: 1.5em;
-    margin: 0.83em 0;
     line-height: normal;
 }
 
@@ -363,8 +362,7 @@ body {
 
 /* line 10, sass/libs/bootstrap-grid/_grid.scss */
 .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     padding-right: 15px;
     padding-left: 26px;
 }
@@ -1946,14 +1944,13 @@ body {
 
 /* Advertise */
 .slider{
-	margin: auto;
-	margin-left: 200px;
+	
 }
 
 .advert{
 	text-align: center;
 	width: 100%;
-	height: 150px;
+	height: 50px;
 	background-color: floralwhite;
 	box-shadow: 2px 3px rgb(49, 43, 43);
 }
@@ -2027,20 +2024,16 @@ span.active,
 a.active,
 h2.active,
 h3.active,
-h4.active,
-h5.active,
-h6.active {
+h4.active{
     color: #01b7f2
 }
 
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
+    margin: auto;
+    width: 390px;;
+    margin-top: 180px !important;
 	margin-bottom: 10px;
-	margin-right: 250px;
 	text-align: center;
 	color: #2d3e52;
 	border-bottom: 2px solid #c77138;
@@ -2051,29 +2044,12 @@ h1 {
     line-height: 1.25em
 }
 
-h2 {
-    font-size: 1.6667em;
-    line-height: 1.25em
-}
 
 h3 {
     font-size: 1.5em;
     line-height: 1.2222em
 }
 
-h4 {
-    font-size: 1.3333em;
-    line-height: 1.25em
-}
-
-h5 {
-    font-size: 1.1666em;
-    line-height: 1.1428em
-}
-
-h6 {
-    font-size: 1em
-}
 
 h1.fourty-space {
     font-size: 1.3333em;
@@ -2081,11 +2057,6 @@ h1.fourty-space {
     letter-spacing: .04em
 }
 
-h2.fourty-space {
-    font-size: 1.1666em;
-    line-height: 1.1428em;
-    letter-spacing: .04em
-}
 
 h3.fourty-space {
     font-size: 1.0833em;
@@ -2099,17 +2070,6 @@ h4.fourty-space {
     letter-spacing: .04em
 }
 
-h5.fourty-space {
-    font-size: 0.9166;
-    line-height: 1.1em;
-    letter-spacing: .04em
-}
-
-h6.fourty-space {
-    font-size: 0.8333em;
-    line-height: 1.1em;
-    letter-spacing: .04em
-}
 
 ol,
 ul {
@@ -2247,7 +2207,7 @@ input[type="button"].button.yellow:hover {
 }
 
 .image-carousel.style2 .slides>li {
-    margin-right: 30px
+    text-align: center;
 }
 
 .image-box .box>.details,
@@ -2395,3 +2355,9 @@ input[type="button"].button.yellow:hover {
   }
   
 /* ---------------------------------مرکز سایت 2------------------------------------ */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
