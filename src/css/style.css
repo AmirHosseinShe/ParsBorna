@@ -1,0 +1,252 @@
+/*==================================================*/
+/*                      header                      */
+/*==================================================*/
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 55px;
+	margin-right: 40px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 8px;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #227de6;
+	border-top: 2px solid #2277e6;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/HL_ImageLibrary_Backgrounds_Purple48.png) ;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+/*==================================================*/
+/*                   text-hero                      */
+/*==================================================*/
+
+
+.hero-text-box{
+    margin-top: 50px;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+}
+h1{
+    text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+
+.btn:link,
+.btn:visited{
+    margin: auto;
+    text-align: center;
+	transition: background-color 0.2s , border 0.2 , color 0.2s;
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+	margin-right: 15px;
+	color: #fff;
+	background-color: #100536;
+	border: 1px solid #061a35;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+	border: 1px solid #229ee6;
+	color: #2298e6;
+}
+
+.btn:hover,
+.btn:active{
+	background-color: #1776cf;
+}
+
+.btn-full:hover,
+.btn-full:active{
+	border: 1px solid #1757cf;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+	border: 1px solid #dddbd9;
+	color: #fff;
+}
+
+
+
+/*==================================================*/
+/*                   conteaner                      */
+/*==================================================*/
+.center{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(139, 139, 139);
+}
+.conteaner{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 55vh;
+    margin-right: 10px;
+    float: right;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px rgb(10, 9, 9) ;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.unstyled a {
+  text-decoration: none;
+}
+
+.list-inline {
+  overflow: hidden;
+}
+.list-inline li {
+  float: left;
+}
+
+.header {
+    text-align: right;
+    float: none;
+    border-radius: 10px;
+    height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #35302d;
+}
+.borna{
+    margin-right: 15px;
+}
+.logo {
+  text-transform: lowercase;
+  font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.logo a {
+  display: block;
+  padding: 1em 0;
+  color: #4d90e7;
+  text-decoration: none;
+  transition: 0.15s linear color;
+}
+.logo a:hover {
+  color: rgb(116, 158, 238);
+}
+.logo a:hover span {
+  color: #df4500;
+}
+.logo span {
+  font-weight: 700;
+  transition: 0.15s linear color;
+}
+
+.main-nav ul {
+  border-top: solid 1px #3c3735;
+}
+.main-nav li {
+  border-bottom: solid 1px #3c3735;
+}
+.main-nav a {
+  padding: 1.1em 0;
+  color: #dfdbd9;
+  font: 400 1.125em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+}
+.main-nav a:hover {
+  color: #fff;
+}
+
+.social-links {
+  border-bottom: solid 1px #3c3735;
+}
+.social-links li {
+  width: 25%;
+  border-left: solid 1px #3c3735;
+}
+.social-links li:first-child {
+  border: none;
+}
+.social-links a {
+  display: block;
+  height: 5.5em;
+  text-align: center;
+  color: #3c3735;
+  font: 0.75em/5.5em "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+.social-links a:hover {
+  color: #dfdbd9;
+}
+
+.list-hover-slide li {
+  position: relative;
+  overflow: hidden;
+}
+.list-hover-slide a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  transition: 0.35s ease color;
+}
+.list-hover-slide a:before {
+  content: "";
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-right: solid 5px #df4500;
+  background: #3c3735;
+  transition: 0.35s ease left;
+}
+.list-hover-slide a.is-current:before, .list-hover-slide a:hover:before {
+  left: 0;
+}
